@@ -127,7 +127,7 @@ const translations = {
     "hero.float.streak": "7-Tage-Streak",
     "hero.float.journal": "Stoisches Journal",
 
-    "quote.text": "„Sehr wenig wird benötigt, um ein glückliches Leben zu führen – es liegt alles in deiner Art zu denken."",
+    "quote.text": "„Sehr wenig wird benötigt, um ein glückliches Leben zu führen – es liegt alles in deiner Art zu denken.\"",
     "quote.author": "– Marcus Aurelius, Selbstbetrachtungen VII.67",
 
     "features.label": "Was dich erwartet",
@@ -197,7 +197,7 @@ const translations = {
     "footer.privacy": "Datenschutz",
     "footer.imprint": "Impressum",
     "footer.copyright": "© 2026 The Stoic Circle. Alle Rechte vorbehalten.",
-    "footer.stoic": "„Das Hindernis auf dem Weg wird zum Weg selbst." – Marcus Aurelius",
+    "footer.stoic": "„Das Hindernis auf dem Weg wird zum Weg selbst.\" – Marcus Aurelius",
   },
 
   fr: {
