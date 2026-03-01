@@ -1,7 +1,31 @@
 /* ============================================================
    THE STOIC CIRCLE – Website Styles
    Color palette mirrors the iOS app
+   Fonts: Self-hosted (DSGVO-konform, kein Google CDN)
    ============================================================ */
+
+/* ── Self-hosted Fonts (Open Font License) ── */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('../fonts/CormorantGaramond-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('../fonts/CormorantGaramond-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url('../fonts/EBGaramond-Regular.woff2') format('woff2');
+}
 
 :root {
   --bg:          #1A1814;
