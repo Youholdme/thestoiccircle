@@ -83,10 +83,10 @@
       </a>
       <div class="nav-right">
         <div class="lang-switcher" aria-label="Language selection">
-          <button class="lang-btn active" data-lang="en" aria-label="English">🇬🇧</button>
-          <button class="lang-btn" data-lang="de" aria-label="Deutsch">🇩🇪</button>
-          <button class="lang-btn" data-lang="fr" aria-label="Français">🇫🇷</button>
-          <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸</button>
+          <button type="button" class="lang-btn active" data-lang="en" aria-label="English" onclick="applyLanguage('en')">🇬🇧</button>
+          <button type="button" class="lang-btn" data-lang="de" aria-label="Deutsch" onclick="applyLanguage('de')">🇩🇪</button>
+          <button type="button" class="lang-btn" data-lang="fr" aria-label="Français" onclick="applyLanguage('fr')">🇫🇷</button>
+          <button type="button" class="lang-btn" data-lang="es" aria-label="Español" onclick="applyLanguage('es')">🇪🇸</button>
         </div>
         <a href="#download" class="nav-cta" data-i18n="nav.cta">Download</a>
       </div>
@@ -391,10 +391,10 @@
           <a href="imprint.html" data-i18n="footer.imprint">Legal Notice</a>
         </nav>
         <div class="footer-lang">
-          <button class="lang-btn-footer active" data-lang="en" aria-label="English">🇬🇧</button>
-          <button class="lang-btn-footer" data-lang="de" aria-label="Deutsch">🇩🇪</button>
-          <button class="lang-btn-footer" data-lang="fr" aria-label="Français">🇫🇷</button>
-          <button class="lang-btn-footer" data-lang="es" aria-label="Español">🇪🇸</button>
+          <button type="button" class="lang-btn-footer active" data-lang="en" aria-label="English" onclick="applyLanguage('en')">🇬🇧</button>
+          <button type="button" class="lang-btn-footer" data-lang="de" aria-label="Deutsch" onclick="applyLanguage('de')">🇩🇪</button>
+          <button type="button" class="lang-btn-footer" data-lang="fr" aria-label="Français" onclick="applyLanguage('fr')">🇫🇷</button>
+          <button type="button" class="lang-btn-footer" data-lang="es" aria-label="Español" onclick="applyLanguage('es')">🇪🇸</button>
         </div>
       </div>
       <div class="footer-bottom">
@@ -404,6 +404,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=3"></script>
 </body>
 </html>
