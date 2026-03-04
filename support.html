@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support – The Stoic Circle</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://thestoiccircle.de/support.html">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .legal-page { min-height: 100vh; padding-top: 68px; }
+    .legal-hero {
+      padding: 72px 24px 40px; text-align: center;
+      border-bottom: 1px solid rgba(139,125,94,0.15);
+      background: radial-gradient(ellipse at 50% 0%, rgba(139,125,94,0.08) 0%, transparent 60%);
+    }
+    .legal-hero h1 { font-family:var(--font-serif); font-size:clamp(1.8rem,4vw,2.8rem); font-weight:600; color:var(--surface); margin-bottom:8px; }
+    .legal-hero p { color:var(--surface-dim); font-family:var(--font-ui); font-size:0.88rem; }
+    .lang-tabs { display:flex; gap:8px; justify-content:center; padding:28px 24px 0; flex-wrap:wrap; }
+    .lang-tab {
+      display:inline-flex; align-items:center; gap:8px; padding:10px 20px;
+      border-radius:100px; border:1px solid rgba(139,125,94,0.2); background:transparent;
+      color:var(--surface-dim); font-family:var(--font-ui); font-size:0.88rem; cursor:pointer;
+      transition:all 0.25s ease;
+    }
+    .lang-tab .flag { font-size:1.3rem; line-height:1; }
+    .lang-tab:hover { border-color:rgba(139,125,94,0.5); color:var(--surface); }
+    .lang-tab.active { background:rgba(139,125,94,0.15); border-color:var(--accent); color:var(--surface); box-shadow:0 0 12px rgba(139,125,94,0.15); }
+    .lang-section { display:none; }
+    .lang-section.active { display:block; }
+    .legal-content { max-width:720px; margin:0 auto; padding:48px 24px 100px; }
+    .legal-section { margin-bottom:40px; }
+    .legal-section h2 { font-family:var(--font-serif); font-size:1.4rem; font-weight:600; color:var(--surface); margin-bottom:14px; padding-bottom:8px; border-bottom:1px solid rgba(139,125,94,0.2); }
+    .legal-section p, .legal-section li { color:var(--surface-dim); line-height:1.85; margin-bottom:10px; }
+    .legal-section ul { padding-left:20px; }
+    .legal-section ul li { list-style:disc; }
+    .legal-section a { color:var(--accent-bright); text-decoration:underline; text-decoration-color:rgba(201,169,110,0.35); }
+    .legal-section a:hover { text-decoration-color:var(--accent-bright); }
+    .contact-box { background:rgba(139,125,94,0.08); border:1px solid rgba(139,125,94,0.2); border-left:3px solid var(--accent); border-radius:8px; padding:20px 24px; margin:20px 0; }
+    .contact-box p { margin:0 0 8px; font-size:0.95rem; }
+    .contact-box a { font-size:1.05rem; font-weight:600; }
+    .faq-item { margin-bottom:24px; }
+    .faq-item h3 { font-family:var(--font-serif); font-size:1.1rem; font-weight:600; color:var(--surface); margin-bottom:6px; }
+    .faq-item p { margin:0; }
+    .back-link { display:inline-flex; align-items:center; gap:6px; color:var(--accent-bright); font-family:var(--font-ui); font-size:0.88rem; text-decoration:none; padding:12px 0; }
+    .back-link:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" role="navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="Home">
+        <span class="sigma">&Sigma;</span> The Stoic Circle
+      </a>
+    </div>
+  </nav>
+
+  <main class="legal-page">
+    <div class="legal-hero">
+      <h1 id="page-title">Support</h1>
+      <p id="page-subtitle">We're here to help</p>
+    </div>
+
+    <div class="lang-tabs">
+      <button type="button" class="lang-tab active" onclick="switchLang('en')"><span class="flag">&#127468;&#127463;</span> English</button>
+      <button type="button" class="lang-tab" onclick="switchLang('de')"><span class="flag">&#127465;&#127466;</span> Deutsch</button>
+      <button type="button" class="lang-tab" onclick="switchLang('fr')"><span class="flag">&#127467;&#127479;</span> Fran&ccedil;ais</button>
+      <button type="button" class="lang-tab" onclick="switchLang('es')"><span class="flag">&#127466;&#127480;</span> Espa&ntilde;ol</button>
+    </div>
+
+    <!-- ENGLISH -->
+    <div id="lang-en" class="lang-section active">
+      <div class="legal-content">
+        <a href="/" class="back-link">&larr; Back to homepage</a>
+
+        <div class="legal-section">
+          <h2>Contact Support</h2>
+          <p>If you have questions, feedback, or need help with The Stoic Circle, please reach out to us:</p>
+          <div class="contact-box">
+            <p>Email:</p>
+            <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a>
+          </div>
+          <p>We typically respond within 24-48 hours.</p>
+        </div>
+
+        <div class="legal-section">
+          <h2>Frequently Asked Questions</h2>
+
+          <div class="faq-item">
+            <h3>What is The Stoic Circle?</h3>
+            <p>The Stoic Circle is your personal Stoic companion app. It combines the wisdom of three great Stoic philosophers &ndash; Marcus Aurelius, Seneca, and Epictetus &ndash; with daily routines, journaling, exercises, and progress tracking to help you live a more mindful life.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Is The Stoic Circle a replacement for therapy?</h3>
+            <p>No. The Stoic Circle is designed for personal growth and philosophical reflection. It does not provide medical, psychological, or therapeutic advice. If you are experiencing mental health issues, please consult a qualified professional.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How does the AI chat work?</h3>
+            <p>The AI chat uses Anthropic's Claude to generate responses in the style of the Stoic philosophers. Your conversations are processed securely and are not used to train AI models.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Which languages are supported?</h3>
+            <p>The app is available in English, German, French, and Spanish. You can change the language in Settings at any time.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How do I reset the app?</h3>
+            <p>You can delete and reinstall the app from the App Store. This will reset all local data including your journal entries and progress.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How do I report a bug?</h3>
+            <p>Please send us an email at <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a> with a description of the issue and, if possible, a screenshot. We appreciate your feedback!</p>
+          </div>
+        </div>
+
+        <div class="legal-section">
+          <h2>Legal</h2>
+          <ul>
+            <li><a href="privacy.html?lang=en">Privacy Policy</a></li>
+            <li><a href="imprint.html?lang=en">Imprint</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEUTSCH -->
+    <div id="lang-de" class="lang-section">
+      <div class="legal-content">
+        <a href="/" class="back-link">&larr; Zur&uuml;ck zur Startseite</a>
+
+        <div class="legal-section">
+          <h2>Kontakt &amp; Support</h2>
+          <p>Wenn du Fragen, Feedback oder Hilfe zu The Stoic Circle hast, kontaktiere uns gerne:</p>
+          <div class="contact-box">
+            <p>E-Mail:</p>
+            <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a>
+          </div>
+          <p>Wir antworten in der Regel innerhalb von 24&ndash;48 Stunden.</p>
+        </div>
+
+        <div class="legal-section">
+          <h2>H&auml;ufig gestellte Fragen</h2>
+
+          <div class="faq-item">
+            <h3>Was ist The Stoic Circle?</h3>
+            <p>The Stoic Circle ist dein pers&ouml;nlicher stoischer Begleiter. Die App vereint die Weisheit von drei gro&szlig;en stoischen Philosophen &ndash; Marcus Aurelius, Seneca und Epiktet &ndash; mit t&auml;glichen Routinen, Journal, &Uuml;bungen und Fortschrittstracking.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Ersetzt die App eine Therapie?</h3>
+            <p>Nein. The Stoic Circle dient der pers&ouml;nlichen Entwicklung und philosophischen Reflexion. Die App bietet keine medizinische, psychologische oder therapeutische Beratung. Bei psychischen Problemen wende dich bitte an qualifiziertes Fachpersonal.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Wie funktioniert der KI-Chat?</h3>
+            <p>Der KI-Chat nutzt Anthropics Claude, um Antworten im Stil der stoischen Philosophen zu generieren. Deine Gespr&auml;che werden sicher verarbeitet und nicht zum Trainieren von KI-Modellen verwendet.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Welche Sprachen werden unterst&uuml;tzt?</h3>
+            <p>Die App ist auf Deutsch, Englisch, Franz&ouml;sisch und Spanisch verf&uuml;gbar. Du kannst die Sprache jederzeit in den Einstellungen &auml;ndern.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Wie setze ich die App zur&uuml;ck?</h3>
+            <p>Du kannst die App l&ouml;schen und aus dem App Store neu installieren. Dabei werden alle lokalen Daten einschlie&szlig;lich Journal-Eintr&auml;ge und Fortschritt zur&uuml;ckgesetzt.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Wie melde ich einen Fehler?</h3>
+            <p>Sende uns eine E-Mail an <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a> mit einer Beschreibung des Problems und, wenn m&ouml;glich, einem Screenshot.</p>
+          </div>
+        </div>
+
+        <div class="legal-section">
+          <h2>Rechtliches</h2>
+          <ul>
+            <li><a href="privacy.html?lang=de">Datenschutzerkl&auml;rung</a></li>
+            <li><a href="imprint.html?lang=de">Impressum</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- FRANCAIS -->
+    <div id="lang-fr" class="lang-section">
+      <div class="legal-content">
+        <a href="/" class="back-link">&larr; Retour &agrave; l'accueil</a>
+
+        <div class="legal-section">
+          <h2>Contact &amp; Support</h2>
+          <p>Si vous avez des questions, des commentaires ou besoin d'aide avec The Stoic Circle, contactez-nous :</p>
+          <div class="contact-box">
+            <p>E-mail :</p>
+            <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a>
+          </div>
+          <p>Nous r&eacute;pondons g&eacute;n&eacute;ralement dans un d&eacute;lai de 24 &agrave; 48 heures.</p>
+        </div>
+
+        <div class="legal-section">
+          <h2>Questions fr&eacute;quentes</h2>
+
+          <div class="faq-item">
+            <h3>Qu'est-ce que The Stoic Circle ?</h3>
+            <p>The Stoic Circle est votre compagnon sto&iuml;cien personnel. L'application combine la sagesse de trois grands philosophes sto&iuml;ciens &ndash; Marc Aur&egrave;le, S&eacute;n&egrave;que et &Eacute;pict&egrave;te &ndash; avec des routines quotidiennes, un journal, des exercices et un suivi des progr&egrave;s.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>L'application remplace-t-elle une th&eacute;rapie ?</h3>
+            <p>Non. The Stoic Circle est con&ccedil;u pour le d&eacute;veloppement personnel et la r&eacute;flexion philosophique. L'application ne fournit pas de conseils m&eacute;dicaux, psychologiques ou th&eacute;rapeutiques.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Comment fonctionne le chat IA ?</h3>
+            <p>Le chat utilise Claude d'Anthropic pour g&eacute;n&eacute;rer des r&eacute;ponses dans le style des philosophes sto&iuml;ciens. Vos conversations sont trait&eacute;es de mani&egrave;re s&eacute;curis&eacute;e.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Quelles langues sont disponibles ?</h3>
+            <p>L'application est disponible en anglais, allemand, fran&ccedil;ais et espagnol. Vous pouvez changer la langue &agrave; tout moment dans les param&egrave;tres.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Comment signaler un bug ?</h3>
+            <p>Envoyez-nous un e-mail &agrave; <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a> avec une description du probl&egrave;me.</p>
+          </div>
+        </div>
+
+        <div class="legal-section">
+          <h2>Mentions l&eacute;gales</h2>
+          <ul>
+            <li><a href="privacy.html?lang=fr">Politique de confidentialit&eacute;</a></li>
+            <li><a href="imprint.html?lang=fr">Mentions l&eacute;gales</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ESPANOL -->
+    <div id="lang-es" class="lang-section">
+      <div class="legal-content">
+        <a href="/" class="back-link">&larr; Volver al inicio</a>
+
+        <div class="legal-section">
+          <h2>Contacto y Soporte</h2>
+          <p>Si tienes preguntas, comentarios o necesitas ayuda con The Stoic Circle, cont&aacute;ctanos:</p>
+          <div class="contact-box">
+            <p>Correo electr&oacute;nico:</p>
+            <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a>
+          </div>
+          <p>Normalmente respondemos en un plazo de 24 a 48 horas.</p>
+        </div>
+
+        <div class="legal-section">
+          <h2>Preguntas frecuentes</h2>
+
+          <div class="faq-item">
+            <h3>&iquest;Qu&eacute; es The Stoic Circle?</h3>
+            <p>The Stoic Circle es tu compa&ntilde;ero estoico personal. La aplicaci&oacute;n combina la sabidur&iacute;a de tres grandes fil&oacute;sofos estoicos &ndash; Marco Aurelio, S&eacute;neca y Epicteto &ndash; con rutinas diarias, diario, ejercicios y seguimiento de progreso.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>&iquest;La app reemplaza la terapia?</h3>
+            <p>No. The Stoic Circle est&aacute; dise&ntilde;ada para el crecimiento personal y la reflexi&oacute;n filos&oacute;fica. La aplicaci&oacute;n no proporciona asesoramiento m&eacute;dico, psicol&oacute;gico o terap&eacute;utico.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>&iquest;C&oacute;mo funciona el chat con IA?</h3>
+            <p>El chat utiliza Claude de Anthropic para generar respuestas al estilo de los fil&oacute;sofos estoicos. Tus conversaciones se procesan de forma segura.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>&iquest;Qu&eacute; idiomas est&aacute;n disponibles?</h3>
+            <p>La aplicaci&oacute;n est&aacute; disponible en ingl&eacute;s, alem&aacute;n, franc&eacute;s y espa&ntilde;ol. Puedes cambiar el idioma en cualquier momento en Ajustes.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>&iquest;C&oacute;mo reporto un error?</h3>
+            <p>Env&iacute;anos un correo a <a href="mailto:support@thestoiccircle.de">support@thestoiccircle.de</a> con una descripci&oacute;n del problema.</p>
+          </div>
+        </div>
+
+        <div class="legal-section">
+          <h2>Legal</h2>
+          <ul>
+            <li><a href="privacy.html?lang=es">Pol&iacute;tica de privacidad</a></li>
+            <li><a href="imprint.html?lang=es">Aviso legal</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    (function(){
+      var langs = ['en','de','fr','es'];
+      var titles = {en:'Support',de:'Support',fr:'Support',es:'Soporte'};
+      var subtitles = {en:"We're here to help",de:'Wir helfen dir gerne',fr:'Nous sommes l\u00e0 pour vous aider',es:'Estamos aqu\u00ed para ayudarte'};
+
+      function switchLang(lang) {
+        if (langs.indexOf(lang) === -1) lang = 'en';
+        langs.forEach(function(l){
+          var s = document.getElementById('lang-'+l);
+          if(s) s.classList.toggle('active', l===lang);
+        });
+        document.querySelectorAll('.lang-tab').forEach(function(t){
+          var tl = t.getAttribute('onclick').match(/'(\w+)'/);
+          if(tl) t.classList.toggle('active', tl[1]===lang);
+        });
+        document.getElementById('page-title').textContent = titles[lang] || titles.en;
+        document.getElementById('page-subtitle').textContent = subtitles[lang] || subtitles.en;
+      }
+
+      window.switchLang = switchLang;
+
+      var params = new URLSearchParams(window.location.search);
+      var urlLang = params.get('lang');
+      if (urlLang && langs.indexOf(urlLang) !== -1) {
+        switchLang(urlLang);
+      }
+    })();
+  </script>
+
+</body>
+</html>
